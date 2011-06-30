@@ -1,10 +1,22 @@
 jQuery greyscaleImage.js Plugin
 ===============================
-Create greyscale versions of your images client side via HTML5 and Canvas. Simply call
+Create greyscale versions of your images client side via HTML5 and Canvas. 
+
+```javascript
+$('.my_image_class').greyscaleImage({});
+```
+
+Options
+-------
+Pass your options as a hash.
+Option	    	| Data Type	| Default	| Explaination
+fadeOnHover		| Boolean	| true		| True if you want the greyscale image to fade to the color image on mouseenter
+fadeInSpeed		| Integer	| 250		| Speed to fade the color image in
+fadeOutSpeed	| Integer	| 250		| Speed to fade out the color iamge
 
 
 License
-=======
+-------
 Copyright (c) 2011 Daniel Westendorf
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
